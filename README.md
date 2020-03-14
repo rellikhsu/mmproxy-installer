@@ -10,7 +10,7 @@ git clone https://github.com/rellikhsu/mmproxy-installer.git
 ./mmproxyInstaller.sh
 ```
 ## 再執行 changeRoute.sh (此 script 僅需執行一次)
-
+此步驟需有 root 權限
 ```shell
 sudo ./changeRoute.sh
 ```
