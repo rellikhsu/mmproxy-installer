@@ -16,7 +16,7 @@ sudo ./changeRoute.sh
 ```
 
 ## 最後修正 run.sh 的內容以後再執行 run.sh
-run.sh 之中 0.0.0.0:25577 為 mmproxy 的監聽端端口,請修正為前端 haproxy 流量要導向的 port,
+run.sh 之中 0.0.0.0:25577 為 mmproxy 的監聽端端口,請修正為前端 haproxy 或是高防 ip 流量要導向的 port,
 run.sh 之中 127.0.0.1:25578 則為遊戲實際運營端口
 ```shell
 sudo ./run.sh &
