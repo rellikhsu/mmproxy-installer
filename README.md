@@ -12,7 +12,7 @@ git clone https://github.com/rellikhsu/mmproxy-installer.git
 ## 再執行 changeRoute.sh (此 script 僅需執行一次)
 
 ```shell
-./changeRoute.sh
+sudo ./changeRoute.sh
 ```
 
 ## 最後修正 run.sh 的內容以後再執行 run.sh
