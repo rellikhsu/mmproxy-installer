@@ -1,6 +1,6 @@
 #!/bin/bash
 CURL=`which curl`
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
 	echo "Please install curl first"
 	exit
 fi
